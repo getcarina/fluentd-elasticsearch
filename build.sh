@@ -19,7 +19,8 @@
 apt-get update
 
 apt-get install -y -q --no-install-recommends \
-  curl ca-certificates make g++ sudo bash
+  curl ca-certificates make g++ sudo bash \
+  gnupg libgcrypt20 systemd
 
 # Install Fluentd.
 /usr/bin/curl -sSL https://toolbelt.treasuredata.com/sh/install-ubuntu-xenial-td-agent2.sh | sh
