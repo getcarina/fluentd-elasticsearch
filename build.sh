@@ -16,6 +16,7 @@
 
 
 # Install prerequisites.
+set -e
 apt-get update
 
 apt-get install -y -q --no-install-recommends \
