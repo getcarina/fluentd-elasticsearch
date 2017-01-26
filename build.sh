@@ -32,7 +32,7 @@ sed -i -e "s/USER=td-agent/USER=root/" -e "s/GROUP=td-agent/GROUP=root/" /etc/in
 
 # Install the Elasticsearch Fluentd plug-in.
 # http://docs.fluentd.org/articles/plugin-management
-td-agent-gem install --no-document fluent-plugin-kubernetes_metadata_filter -v 0.24.0
+td-agent-gem install --no-document fluent-plugin-kubernetes_metadata_filter -v 0.26.2
 td-agent-gem install --no-document fluent-plugin-elasticsearch -v 1.5.0
 td-agent-gem install --no-document fluent-plugin-systemd -v 0.1.0
 
